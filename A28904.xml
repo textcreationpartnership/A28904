@@ -1,0 +1,549 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A method of conversing with God Translated out of French by J. W. of the Society of Jesus.</title>
+            <title>Méthode pour converser avec Dieu. English.</title>
+            <author>Boutauld, Michel, 1604-1689.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1688</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 66 KB of XML-encoded text transcribed from 76 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A28904</idno>
+            <idno type="STC">Wing B3860D</idno>
+            <idno type="STC">ESTC R214740</idno>
+            <idno type="EEBO-CITATION">99826817</idno>
+            <idno type="PROQUEST">99826817</idno>
+            <idno type="VID">31226</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A28904)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 31226)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1843:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A method of conversing with God Translated out of French by J. W. of the Society of Jesus.</title>
+                  <title>Méthode pour converser avec Dieu. English.</title>
+                  <author>Boutauld, Michel, 1604-1689.</author>
+                  <author>Warner, John, 1628-1692.</author>
+               </titleStmt>
+               <extent>[8], 135, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by Mary Thompson,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>anno Dom. MDCLXXXVIII. [1688]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Author's name from Wing. J. W. = John Warner.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Early works to 1800.</term>
+               <term>Prayer --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-06</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-06</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:31226:1" rendition="simple:additions"/>
+            <p>A METHOD OF Converſing WITH GOD.</p>
+            <p>Tranſlated out of <hi>French</hi> by <hi>J. W.</hi> of the Society of <hi>Jeſus.</hi>
+            </p>
+            <p>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on habet amaritudinem conver<g ref="char:EOLhyphen"/>ſatio illius, nec taedium con<g ref="char:EOLhyphen"/>victus illius. <hi>Sapien. c.</hi> 8. <hi>v.</hi> 16.</p>
+            <p>
+               <hi>London,</hi> Printed by <hi>Mary Thomp<g ref="char:EOLhyphen"/>ſon</hi> Anno Dom. MDCLXXXVIII.</p>
+            <pb facs="tcp:31226:2"/>
+            <pb facs="tcp:31226:2" rendition="simple:additions"/>
+            <pb facs="tcp:31226:3" rendition="simple:additions"/>
+            <pb facs="tcp:31226:3" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:31226:4" rendition="simple:additions"/>
+            <pb facs="tcp:31226:4"/>
+            <head>To Her Majeſty THE Queen Dowager OF ENGLAND.</head>
+            <opener>
+               <salute>Madam,</salute>
+            </opener>
+            <p>THough I have put the enſuing Trea<g ref="char:EOLhyphen"/>tiſe into <hi>Engliſh,</hi> yet it ſpeaks ſtill a Langu<g ref="char:EOLunhyphen"/>age few underſtand, and therefore wants ſo powerful a Patroneſs as your Ma<g ref="char:EOLhyphen"/>jeſty; who both Underſtands it, and can Vindicate it from
+<pb facs="tcp:31226:5"/>thoſe Cenſures that may be caſt upon it, by ſuch as do not. Wherefore vouchſafe to give me leave to publiſh it under Your Majeſties Gra<g ref="char:EOLhyphen"/>cious Patronage; and to take this opportunity of giv<g ref="char:EOLhyphen"/>ing our Nation an <hi>Idea</hi> of the Devotions Your Majeſty exerciſes in Your frequent Retirements, which many Admire, but few Imitate: Falſly judging that Prayer and Converſation with God is a tedious and irkſome Imployment, whilſt a Pious Soul finds the contrary, and Experiences it to be the on<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:31226:5"/>true Comfort upon Earth, and a Foretaſt and Pledge of that everlaſting Happi<g ref="char:EOLhyphen"/>neſs it hopes for in Heaven. Other ſeeming Comforts may allure our Hearts to a ſearch after them, but when with much labour they are obtain'd, they manifeſt then emptineſs and their inability to give the content they Promiſed, leaving the Soul in a more languiſhing and ſad condition than they found it, and only ſatisfy<g ref="char:EOLhyphen"/>ing it of this Truth, that God created our Heart for the enjoyment of himſelf,
+<pb facs="tcp:31226:6"/>and that nothing leſs than Him can ſatisfy it. Vouch<g ref="char:EOLhyphen"/>ſafe; <hi>Madam,</hi> to pardon my Confidence, in preſent<g ref="char:EOLhyphen"/>ing a bare Tranſlation of ſo ſmall a Treatiſe to ſo great a Perſon. The Widdows Mite was not unacceptable to the King of Heaven, be<g ref="char:EOLhyphen"/>cauſe it was all ſhe had, and becauſe ſhe gave it with a very good will, which is the moſt valuable thing in all Preſents; and I can aſſure Your Majeſty, that both theſe Reaſons do plead for this little Offering. Your Ma<g ref="char:EOLhyphen"/>jeſties acceptance will, I hope,
+<pb facs="tcp:31226:6"/>perſuade the World to turn over theſe few Leafes; and if your Example likewiſe can prevail with them, to practiſe what they Read, I queſtion not but they will ſoon ceaſe to wonder that Your Majeſty ſo often leaves the Entertainments of the Court, for the Solitude of Your Cloſet; when they per<g ref="char:EOLhyphen"/>ceive that the greateſt Hon<g ref="char:EOLhyphen"/>ours, Riches, and Pleaſures of the Earth, are (what the wiſeſt of Men ſtiled them) meer Vanities; nay, even Vexations, in reſpect of thoſe Subſtantial and Satisfactory
+<pb facs="tcp:31226:7"/>Delights, which are enjoy'd by Converſing with God. <hi>Which indeed are ſuch, that none but thoſe who with Your Majeſty have Experienc'd them, are able to conceive them.</hi> That Your Majeſty may pro<g ref="char:EOLhyphen"/>ceed in Your pious Exerciſes, till at length you come to re<g ref="char:EOLhyphen"/>ceive the Reward of them in an everlaſting Joy, is the conſtant Prayer of</p>
+            <closer>
+               <salute>Madam,</salute> 
+               <signed>Your Majeſties moſt Obliged and moſt Devoted Servant <hi>J. W.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:31226:7" rendition="simple:additions"/>
+            <head>A METHOD OF Converſing with GOD.</head>
+            <q>
+               <p>Non habet amaritudinem con<g ref="char:EOLhyphen"/>verſatio illius, nec taedium convictus illius.</p>
+               <p>His Converſation has no Bit<g ref="char:EOLhyphen"/>terneſs, nor his Company any Tediouſneſs.</p>
+               <bibl>
+                  <hi>Sapien. c. 8. v. 16</hi>
+               </bibl>
+            </q>
+            <div type="introduction">
+               <head>Introduction.</head>
+               <p>OUR Converſati<g ref="char:EOLhyphen"/>ons with one a<g ref="char:EOLhyphen"/>nother, tho' ne<g ref="char:EOLhyphen"/>ceſſary for the Entertain<g ref="char:EOLhyphen"/>ment
+<pb n="2" facs="tcp:31226:8"/>of our Mind, yet have often Inconvenien<g ref="char:EOLhyphen"/>ces, Diſgraces, and Diſ<g ref="char:EOLhyphen"/>contents that accompany them; or, at leaſt are ſubject to two trouble<g ref="char:EOLhyphen"/>ſome Accidents, the one, that ordinarily they diſ<g ref="char:EOLhyphen"/>pleaſe us, and become painful and inſupportable, there being nothing that wearies us ſooner, or be<g ref="char:EOLhyphen"/>comes more tedious, then to be obliged to harken to, and to entertain others: The other is ſtill worſe, that when theſe Conver<g ref="char:EOLhyphen"/>ſations pleaſe us, they are
+<pb n="3" facs="tcp:31226:8"/>generally Criminal, and moſt commonly we re<g ref="char:EOLhyphen"/>turn with wounded Con<g ref="char:EOLhyphen"/>ſciences, and ſuch Imper<g ref="char:EOLhyphen"/>fections as we carried not with us.</p>
+               <p>Converſation with God is free from theſe two dangers, neither ſin nor weariſomneſs accompany it; Innocence and Joy are the conſtant Companions of this Spiritual Happi<g ref="char:EOLhyphen"/>neſs.</p>
+               <p>If you deſire to know it by your own Experience, do what the Holy Ghoſt and the Divine Wiſdom
+<pb n="4" facs="tcp:31226:9"/>Inſpire in their own words, which I am about to pro<g ref="char:EOLhyphen"/>poſe to you, and regulate your ſelf according to the Examples they invite you to imitate.</p>
+            </div>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <head type="sub">
+                  <hi>In what this Converſation conſiſts.</hi>
+               </head>
+               <p>GOD loves you, love Him; His delight is to converſe with you, let yours be to converſe with, and to ſpend your Time, as you will ſpend
+<pb n="5" facs="tcp:31226:9"/>your Eternity, in his ami<g ref="char:EOLhyphen"/>able Company.</p>
+               <p>Accuſtom your ſelf to ſpeak familiarly and con<g ref="char:EOLhyphen"/>fidently to him as to a Friend, and reflect that 'tis an error and weak<g ref="char:EOLhyphen"/>neſs of our blinded Na<g ref="char:EOLhyphen"/>ture, not to be free in his Preſence, and not to appear before him, but as Slaves trembling with Shame and Fear before a Prince, thinking of no<g ref="char:EOLhyphen"/>thing elſe, but ſearching Comfort, and Liberty elſe<g ref="char:EOLhyphen"/>where.</p>
+               <pb n="6" facs="tcp:31226:10"/>
+               <p>You are not deſired by an Extatick Prayer, or a violent Application of your Imagination, that you form to your ſelf a Figure of his Adorable Perſon, and that Proſtrate in Spirit before this imaginary Fi<g ref="char:EOLhyphen"/>gure, you forget your Self and your Domeſtick Af<g ref="char:EOLhyphen"/>fairs, and that you ſpend the day in Contemplating and Praiſing his Greatneſs.</p>
+               <p>No, we ſpeak here on<g ref="char:EOLhyphen"/>ly of a familiar Entertain<g ref="char:EOLhyphen"/>ment, and deſire nothing elſe, but that without quit<g ref="char:EOLhyphen"/>ting your ordinary Em<g ref="char:EOLhyphen"/>ployments,
+<pb n="7" facs="tcp:31226:10"/>you carry your ſelf after the ſame manner towards God, as in the like occaſions you are wont to do, to thoſe that love you, and that you love. He is preſent by you as they are; ſpeak to him as you would to them, entertain him about your Concerns, about your Deſigns, pro<g ref="char:EOLhyphen"/>poſe your Hopes and Fears to him, and do this with Confidence and an open Heart; for Reſervedneſs and Silence is very diſplea<g ref="char:EOLhyphen"/>ſing to him in his Saints: The Soul that has no<g ref="char:EOLhyphen"/>thing
+<pb n="8" facs="tcp:31226:11"/>thing to ſay to him, is like the little Siſter of the <hi>Suna<g ref="char:EOLhyphen"/>mite,</hi> which is not yet of Age to be one of the num<g ref="char:EOLhyphen"/>ber of his Spouſes, and to be tenderly loved by him.</p>
+               <p>One of the firſt Leſſons of a Spiritual Life is, that God who is the moſt Powerful and Formidable of all Maſters, when he commands, deſires to be Treated as the moſt Fa<g ref="char:EOLhyphen"/>miliar Friend when he loves; and that during theſe ſolitary Converſati<g ref="char:EOLhyphen"/>ons with the Perſons he chooſes, the leaſt of all
+<pb n="9" facs="tcp:31226:11"/>Creatures, is not too little, or too contemptible in his ſight, unleſs that ſhe has not yet learn'd the man<g ref="char:EOLhyphen"/>ner of Converſing with him, heart to heart, and amourouſly diſcovering to him her moſt hidden thoughts.</p>
+               <p>True it is, that he ought always to be Sovereignly reſpected; but when he does you the favour to Vi<g ref="char:EOLhyphen"/>ſit you, and by an Inte<g ref="char:EOLhyphen"/>rior motion of your Soul, makes you ſenſible of his Preſence; the greateſt Ho<g ref="char:EOLhyphen"/>nour he requires from you,
+<pb n="10" facs="tcp:31226:12"/>is to Entertain and Di<g ref="char:EOLhyphen"/>ſcourſe with him, as with one you love, with all Li<g ref="char:EOLhyphen"/>berty, Confidence, and Tenderneſs.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAP. II.</head>
+               <head type="sub">
+                  <hi>That GOD is every where.</hi>
+               </head>
+               <p>'TIs to receive this Honour, ſays the Prophet, that without ex<g ref="char:EOLhyphen"/>pecting your coming to him, as ſoon as he per<g ref="char:EOLhyphen"/>ceives that you deſire to call him, he prevents you and preſents himſelf to
+<pb n="11" facs="tcp:31226:12"/>you, with his Hands full of Grace, and Remedies proper for all the ailments you are wont to complain of; He attends only till you ſpeak to him to make you ſenſible that he is al<g ref="char:EOLhyphen"/>ways near you, and ready to hear and comfort you.</p>
+               <p>Whereupon take notice that though God is every where, and in all Perſons throughout the World by the Extent of his Immen<g ref="char:EOLhyphen"/>ſity, and by the Operati<g ref="char:EOLhyphen"/>ons of his Power as Crea<g ref="char:EOLhyphen"/>tor; yet there are two places in which he inha<g ref="char:EOLhyphen"/>bits
+<pb n="12" facs="tcp:31226:13"/>as in his own Houſe, which he deſigns and makes choice of for his chief Abode. The One is the Imperial Heaven, where he is preſent by the Emanations of his Glory, Communicated to the An<g ref="char:EOLhyphen"/>gels and Saints; Th'other upon Earth, in the Souls of the Humble and Pre<g ref="char:EOLhyphen"/>deſtinate, where he is pre<g ref="char:EOLhyphen"/>ſent by his Grace and the moſt Divine Operations of the Holy Ghoſt, who re<g ref="char:EOLhyphen"/>ſtores to them the Anti<g ref="char:EOLhyphen"/>ent Paradiſe in their De<g ref="char:EOLhyphen"/>ſerts. <hi>Dwelling in Eter<g ref="char:EOLhyphen"/>nity,</hi>
+                  <pb n="13" facs="tcp:31226:13"/>ſays one Prophet, and <hi>Inhabiting in a Hmmble and Contrite Heart,</hi> ſays ano<g ref="char:EOLhyphen"/>ther. 'Tis God that dwells on high in the Sublimity of Eternity, and at the ſame time ſo low, as in the Solitude of Saints, in their <hi>Grots, Tabernacles,</hi> and <hi>Cels;</hi> where he paſ<g ref="char:EOLhyphen"/>ſes the whole day, Enter<g ref="char:EOLhyphen"/>taining himſelf with them. <hi>Alas, what Joys! What Heavenly Conſolations!</hi> ſays <hi>Job,</hi> reflecting upon theſe Antient and Happy years of his Converſation with God, <hi>When God was ſecret<g ref="char:EOLhyphen"/>ly
+<pb n="14" facs="tcp:31226:14"/>in my Tabernacle, when the Omnipotent was with me:</hi> In a word, he is with thee, O Devout Soul, an inſeparable, and the only Faithful Companion a<g ref="char:EOLhyphen"/>mongſt Friends.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III.</head>
+               <head type="sub">
+                  <hi>God is at all times Preſent.</hi>
+               </head>
+               <p>OThers have Hours of Separation, there is no ſeparation from God, all times are proper to make Holy Love to him, <hi>When the Sun retires,</hi>
+                  <pb n="15" facs="tcp:31226:14"/>ſays <hi>Solomon, he retires not;</hi> in the Night he remains by your Pillow, to enter<g ref="char:EOLhyphen"/>tain you in the ſilence of the Night by his ſecret Inſpirations, and to help you to make a Holy and Sweet Repoſe amidſt the Sweetneſſes and Coeleſti<g ref="char:EOLhyphen"/>al Pleaſures of this Inte<g ref="char:EOLhyphen"/>rior Converſation.</p>
+               <p>He is preſent alſo when you wake in the Morn<g ref="char:EOLhyphen"/>ing, to hear from your Mouth a word of Confi<g ref="char:EOLhyphen"/>dence, and to become the Depoſitory of your firſt Cares each day; but
+<pb n="16" facs="tcp:31226:15"/>ſince he fails not to be preſent when you wake, fail not on your part, to behold him, and to ſtretch out your Arms to Em<g ref="char:EOLhyphen"/>brace him, tell him with his beloved Spouſe in the <hi>CANTICLES,</hi> how your thoughts have been taken up with him in the Night; in what pain you have been for his abſence, what Tears you have ſhed when you thought of your in<g ref="char:EOLhyphen"/>gratitudes, that conſtrain<g ref="char:EOLhyphen"/>ed him to give ear to his Juſtice, and to leave you, ſay with her, I deſired you,
+<pb n="17" facs="tcp:31226:15"/>I ran after you in the De<g ref="char:EOLhyphen"/>ſerts, where I ſaw nothing but Darkneſs, but <hi>in my Spirit, and from the bottom of my Heart, I will rejoyce in the Morning to find you.</hi> Doubt not O Divine Sa<g ref="char:EOLhyphen"/>viour, but that I am yours ſince that you ſee the firſt motion of my heart after my being my ſelf, is to re<g ref="char:EOLhyphen"/>joyce at the happy News that you ſtill love me, and that you are not ſo far from me as my faults have merited, and my fears have imagined.</p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="18" facs="tcp:31226:16" rendition="simple:additions"/>
+               <head>CHAP. IV.</head>
+               <head type="sub">
+                  <hi>That God is moſt particu<g ref="char:EOLhyphen"/>larly preſent to us when we are ſo to him.</hi>
+               </head>
+               <p>NO certainly Devout Soul, he is not far off, he is where you are, and there is nothing in this World ſo near you as this inſeparable lover of yours. But take care you forget not he is ſo, as the greateſt part of the World do, and let no day or hour paſs without beholding, think<g ref="char:EOLhyphen"/>ing of him, or ſpeaking
+<pb n="19" facs="tcp:31226:16"/>to him. Entertain him with ſome diſcourſe, if you have any Devotion, neither matter nor words will be wanting; tell him what you know of your ſelf and your Family, and what you would tell a Friend that came to viſit you. As Great a God as he is, he looks upon what you tell him as a thing of importance, be<g ref="char:EOLhyphen"/>cauſe he loves you, and becauſe there is nothing concerns you which Love makes not his Intereſt.</p>
+               <pb n="20" facs="tcp:31226:17"/>
+               <p>Look not upon him as a King that contemns a Soul that has not Kingly thoughts, and is not able to entertain him with great Matters, or as one that is afraid to abaſe him<g ref="char:EOLhyphen"/>ſelf by harkening to your little Houſehold Affairs, or to what paſſes in the Conſcience of a poor pet<g ref="char:EOLhyphen"/>ty Creature.</p>
+               <p>'Tis true as St. <hi>Chryſo<g ref="char:EOLhyphen"/>ſtom</hi> ſays, <hi>That the care of God in Heaven, and upon the Throne of his Empire, is to think on the Angels and Saints, and upon the
+<pb n="21" facs="tcp:31226:17"/>great Deſign of his Hea<g ref="char:EOLhyphen"/>venly Wiſdom.</hi> But when he is with you, when he is in your Cloſet, his only care is to think on you, all the Application of his Providence and Love, re<g ref="char:EOLhyphen"/>gards your particular In<g ref="char:EOLhyphen"/>tereſt: When he is with you, and in ſuch places where you are alone with him. He is God as I may ſay, for you alone, he is there Omnipotent only to help you, he is all Good<g ref="char:EOLhyphen"/>neſs and Beauty only to be loved by you, and to draw you to a Confidence
+<pb n="22" facs="tcp:31226:18"/>in him, and love of him, and to preſent you an oc<g ref="char:EOLhyphen"/>caſion of telling him what afflicts you, and in what State or Condition your Family is, and to in<g ref="char:EOLhyphen"/>form him how things go in your Charge or imploy<g ref="char:EOLhyphen"/>ment, as alſo to manifeſt the Interiour of your Soul to him; Tell him then, with Love and Sincerity, all that you know: Re<g ref="char:EOLhyphen"/>veal your ways unto our Lord, and beg his directi<g ref="char:EOLhyphen"/>on in them, and make known all your Counſels to him.</p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="23" facs="tcp:31226:18"/>
+               <head>CHAP. V.</head>
+               <head type="sub">
+                  <hi>That God makes himſelf Ig<g ref="char:EOLhyphen"/>norant of what we do not impart to Him.</hi>
+               </head>
+               <p>TEll me not that he already knows all you can ſay, becauſe he is God, and knows all things; But take notice, that by the Law of his Divine Wiſdom, he will have all things he knows paſs as unknown to him, without approving them, pleaſing himſelf in them, co<g ref="char:EOLhyphen"/>operating with them, or
+<pb n="24" facs="tcp:31226:19"/>taking care of bringing them to an Happy iſſue, unleſs you your ſelf make them known to him.</p>
+               <p>There are Tears pour'd forth in abundance in his Preſence, yet he ſees them not; ſuch are the Tears of Hypocritical Penitents: There are Perſons alſo that he Swears he knows not; <hi>Verily, I ſay unto you, I know you not:</hi> There are Affairs alſo he knows nothing of, and theſe are even your own, when you ſay nothing to him of them, your Silence which
+<pb n="25" facs="tcp:31226:19"/>hides them from him, makes them as unknown to him, and that he has no deſign by the bleſſing of his Providence, to give a good ſucceſs to them. Whilſt you relate your diſ<g ref="char:EOLhyphen"/>ſatisfactions and troubles to Men, and ſay nothing to God, they know what you ſay, but God knows nothing of it.</p>
+               <p>God as Great and Om<g ref="char:EOLhyphen"/>niſcient as he was, he knew not, that is, he would not know, that <hi>Lazarus</hi> was ſick, till St. <hi>Mary Magda<g ref="char:EOLhyphen"/>len</hi> gave him notice of it:
+<pb n="26" facs="tcp:31226:20"/>You are Indiſpoſed, you are Afflicted, and Purſued by your Creditors, you fol<g ref="char:EOLhyphen"/>low a buſineſs of Impor<g ref="char:EOLhyphen"/>tance, you want good Councel and the aſſiſtance of a powerful Friend; our Saviour knows nothing of all this; if you would have it come to his know<g ref="char:EOLhyphen"/>ledge, he muſt know it from your ſelf; 'tis a ſe<g ref="char:EOLhyphen"/>cret Law his Love pre<g ref="char:EOLhyphen"/>ſcribes him which he will not fail to obſerve.</p>
+               <p>For as much alſo as con<g ref="char:EOLhyphen"/>cerns other Afflictions, God knows them not ſo long as
+<pb n="27" facs="tcp:31226:20"/>you ſay nothing of them; wherefore Devout Soul, keep no longer ſilence in his preſence; as ſoon as any Diſgrace, or croſs Ac<g ref="char:EOLhyphen"/>cident arrives, with humi<g ref="char:EOLhyphen"/>lity and reſpect make your Complaint to him; if your Confidence be great, 'tis not neceſſary to beg his Aſſiſtance in expreſs terms, it ſufficeth with St. <hi>Mary Magdalen</hi> to preſent your Affliction before his Eyes ſo that he has notice of it, <hi>Behold O Lord, how I am Af<g ref="char:EOLhyphen"/>flicted.</hi> He takes pleaſure to behold an afflicted heart,
+<pb n="28" facs="tcp:31226:21"/>and to comfort it. Diſco<g ref="char:EOLhyphen"/>ver yours to him, and let him ſee all the diſquiet and bitterneſs within it; diſ<g ref="char:EOLhyphen"/>cover all the motions of your diſturbed Thoughts from fear or ſadneſs. I am full of Bitterneſs, my heart is even drown'd with ſad<g ref="char:EOLhyphen"/>neſs; behold me loſt and overwhelmed in an Abyſs of Miſery; Dangers and Darkneſs have ſurrounded me, I have nothing elſe to ſay to you, ſince your Mer<g ref="char:EOLhyphen"/>cy ſees my Grief and my Tears; and that all my Hope is in you alone:
+<pb n="29" facs="tcp:31226:21"/>Ask your Mercy O God, what it ought to do, ask your Love the ſame que<g ref="char:EOLhyphen"/>ſtion, and then do what you pleaſe.</p>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="30" facs="tcp:31226:22"/>
+               <head>CHAP. VI.</head>
+               <head type="sub">
+                  <hi>That God condeſcends to our weakneſs, in permitting us to ſeek Comfort from Creatures, that finding none in them, we may more earneſtly return to Him.</hi>
+               </head>
+               <p>HE is not angry, as I have ſaid elſe<g ref="char:EOLhyphen"/>where; That during theſe troubles, you Addreſs your ſelf to Creatures to be comforted by them, but when they have nei<g ref="char:EOLhyphen"/>ther Power nor Will to
+<pb n="31" facs="tcp:31226:22"/>aſſiſt you, it is his Plea<g ref="char:EOLhyphen"/>ſure that you come and make your complaint to him of it, and in his Arms blame their weakneſs or ingratitude: My Friends have nothing but words, 'tis to you therefore, O Divine Saviour, that <hi>I</hi> come to manifeſt my pain, and to addreſs my Tears. And do not on<g ref="char:EOLhyphen"/>ly make complaint of the things that trouble you, but as ſoon as you have received any News that pleaſes you, comforts you, and cauſes Hope and Joy
+<pb n="32" facs="tcp:31226:23"/>to ſpring up in your Heart, do what Fidelity and Friendſhip requires; run preſently to him you love, who expects you, tell him the News, and add that it is your greateſt comfort, that this Chari<g ref="char:EOLhyphen"/>table Care and Fatherly Bounty of his, is a Mark that he is pleaſed with you. For this reaſon my Heart rejoyceth, and my Tongue exults; <hi>I</hi> will rejoyce in God my Saviour, and ſing to him becauſe he has beſtowed Good things upon me.</p>
+            </div>
+            <div n="7" type="chapter">
+               <pb n="33" facs="tcp:31226:23" rendition="simple:additions"/>
+               <head>CHAP. VII.</head>
+               <head type="sub">
+                  <hi>'Tis not diſpleaſing to God, to relate our Imperfecti<g ref="char:EOLhyphen"/>ons to Him.</hi>
+               </head>
+               <p>'TIS another Mark of Confidence that pleaſes Extreamly this Dear and Devout Spouſe, to truſt him with the knowledge of your Faults, even before you make your appearance before your Confeſſors Tribunal, and acquit your ſelf of your Duty of <hi>Penance.</hi> Come and declare to this
+<pb n="34" facs="tcp:31226:24"/>Aimable Confident, what has hapened to you, and ſay with <hi>David, I have ſinned very much in this Action, and have done ve<g ref="char:EOLhyphen"/>ry fooliſhly;</hi> My God I have juſt now ſpoke an undi<g ref="char:EOLhyphen"/>ſcreet word, I have done a moſt unworthy Action, and ſuch a one, as may be the occaſion of great Diſorder; I know not what blindneſs ſhut my Eyes and cauſed me to fall into this ſin; in truth I am very much aſhamed of it, and afflicted for it, but that which troubles
+<pb n="35" facs="tcp:31226:24"/>me moſt, and renders me comfortleſs, is, that you are offended. Neverthe<g ref="char:EOLhyphen"/>leſs, if I have been leſs Prudent, you are not the leſs Merciful, or leſs ſen<g ref="char:EOLhyphen"/>ſible of my Tears; I be<g ref="char:EOLhyphen"/>hold a tender compaſſion, in your Eyes, where I ſee your wonted Bounty; Methinks I feel that Love in your Heart, which is the Joy and Comfort of my Life; Look and make Experiment of it your ſelf, and you will find, that notwithſtanding my ingratitude, the flames
+<pb n="36" facs="tcp:31226:25"/>of your Charity are not yet extinguiſhed, and that you are the ſame to day, you were from all Eterni<g ref="char:EOLhyphen"/>ty; Sweet, Meek, and abounding in Mercy.</p>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAP. VIII.</head>
+               <head type="sub">
+                  <hi>How we are to lay open our Daily Infirmities before Almighty GOD.</hi>
+               </head>
+               <p>UPon occaſion of theſe light and or<g ref="char:EOLhyphen"/>dinary faults that often happen, and almoſt every hour, beg of him, that he
+<pb n="37" facs="tcp:31226:25"/>would not forget what he knows better than you, to wit, that you are an in<g ref="char:EOLhyphen"/>famous ſinner, and like an infant, ſubject to con<g ref="char:EOLhyphen"/>tinual falls, tho' his Fa<g ref="char:EOLhyphen"/>therly goodneſs ſeem not to permit him to be angry at you.</p>
+               <p>Repreſent before him, that a Son and Heir of two years old, the Hopes and Darling of the Fami<g ref="char:EOLhyphen"/>ly, is not leſs pleaſing to his Mother when he falls, than when he ſtands on his feet, but the contrary; for then it is that ſhe takes
+<pb n="38" facs="tcp:31226:26"/>him up, and more tender<g ref="char:EOLhyphen"/>ly cheriſhes him. Tell him that it is the Nature of Step-Mothers to be angry, or correct their lit<g ref="char:EOLhyphen"/>tle Children, becauſe they fall, a true compaſſionate Mother, of which he will bear the Name, as ſoon as ſhe ſees her Child fallen, runs to help him up with a Motherly affection, and inſtead of Rigour and Threats, hides him in her Boſom, Flatters, and Em<g ref="char:EOLhyphen"/>braces him; and endea<g ref="char:EOLhyphen"/>vours by her Kiſſes and Careſſes, to aſſwage his
+<pb n="39" facs="tcp:31226:26"/>Pain, and to hinder him from crying and afflicting himſelf.</p>
+               <p>Great God, you give me the Name of your little One, which you hold on your Knees, or lead by the Hand to teach me to go. Behold what I am, and when I Fall; ſee what you ought to be, and what your Goodneſs re<g ref="char:EOLhyphen"/>quires of you.</p>
+               <p>'Tis true my moſt dear Father, and even this very day in your Preſence, not<g ref="char:EOLhyphen"/>withſtanding my many Reſolutions and Promiſes,
+<pb n="40" facs="tcp:31226:27"/>I am fallen into my daily and wonted Imperfections. Yet be not angry with me, <hi>I</hi> have reaſon indeed to cry and be afflicted; this be<g ref="char:EOLhyphen"/>longs to me, but it belongs to you my Beloved to give me your Hand to help me up, to take me into your Arms, to dry up my Tears to diſſipate my Diſquiets and Fears, and to aſſure me that you ſtill Love me, and ceaſe not to be my God.</p>
+               <p>
+                  <hi>I</hi> do not deny, but you have a great deal of reaſon to complain, that after ſo
+<pb n="41" facs="tcp:31226:27"/>many Confeſſions made, ſo many Pardons and Favours received, you ſee me fall into ſuch frequent Relap<g ref="char:EOLhyphen"/>ſes: Yet methinks, you have a great deal of rea<g ref="char:EOLhyphen"/>ſon to excuſe in me theſe unavoidable Weakneſſes; or at leaſt, if you are an<g ref="char:EOLhyphen"/>gry, or diſpleas'd with them, to let your anger fall upon my Parents, who conceiv'd me in Ignorance, and gave me their Sin in part of my Being,</p>
+               <p>Alas, Divine Saviour, vouchſafe but a little to re<g ref="char:EOLhyphen"/>gard what is in me, and
+<pb n="42" facs="tcp:31226:28"/>what I am, what an Heart has been beſtowed on me; and what Blood has been made uſe of to form a Crea<g ref="char:EOLhyphen"/>ture, that ought to be as pure and impeccable, as the An<g ref="char:EOLhyphen"/>gels: As ſoon as I ſprung out of nothing, you refus'd me, what is moſt Holy, your Grace, without which I was born. My Parents gave me only of their own, what was moſt impure.</p>
+               <p>I received of you a Soul, which immediatly was in<g ref="char:EOLhyphen"/>fected with Sin, before it was at my Diſpoſal, and of them a Body, already
+<pb n="43" facs="tcp:31226:28"/>tainted with Corruption and bad Inclinations: And ſince I became ſo miſe<g ref="char:EOLhyphen"/>rable without my actual Concurrence, there ſeem<g ref="char:EOLhyphen"/>eth to be ſome little rea<g ref="char:EOLhyphen"/>ſon, why you ſhould grant Pardon for thoſe Imper<g ref="char:EOLhyphen"/>fections which naturally flow from ſo bad a Source.</p>
+               <p>I ſhould be to blame notwithſtanding, ſhould I demand, that your infinite Sanctity ſhould not regard my Failings with diſplea<g ref="char:EOLhyphen"/>ſure: I am diſpleas'd with them my ſelf, and ſuffer moſt ſorrowful Regrets
+<pb n="44" facs="tcp:31226:29"/>and Remorſes for them. I tell you however, what I do to comfort my ſelf, and what in my opinion you ſhould do, to appeaſe your anger, and to have towards me no other Sen<g ref="char:EOLhyphen"/>timents but of Compaſſion, and no other deſigns but of Mercy.</p>
+               <p>For my part, O my God, at the very moment I have Sinned, I look up<g ref="char:EOLhyphen"/>on you in the ſame State and Condition, you were in on Mount <hi>Calvary,</hi> where you thought of no<g ref="char:EOLhyphen"/>thing but of Pardoning,
+<pb n="45" facs="tcp:31226:29"/>and blotting out of Sins, and ſearching out Sin<g ref="char:EOLhyphen"/>ners throughout the whole World, to waſh them in your moſt precious Blood. This is that, which I be<g ref="char:EOLhyphen"/>hold, and this makes me run to you: O adorable Mercy, behold here the Sinner, you ſeek after.</p>
+               <p>For your part, O my God, in the ſame moment you ſee me fallen, behold me in the ſame ſtate, in which by your Mercy <hi>I</hi> hope to be one day in Hea<g ref="char:EOLhyphen"/>ven, where I ſhall think of nothing elſe, but loving
+<pb n="46" facs="tcp:31226:30"/>you: When you behold me here below, you ſee a Perſon, who, during thirty or fourty years of his Life, paſſes not one day, nay perhaps not one hour, without Offending you by ſome Fault or other. But when you behold me in Paradiſe, you behold a Saint, that paſſes millions of Years and Ages; nay an intire Eternity, without offending you ſo much as once, and that ceaſes not each moment of this long Eternity, to Glorify, and Love you: Look upon me
+<pb n="47" facs="tcp:31226:30"/>then in this ſtate, and be not angry, to ſee me upon Earth for fifty or ſixty years, that is, two or three Minutes in reſpect of Eter<g ref="char:EOLhyphen"/>nity, to be the ſubject of frailty and frequent fail<g ref="char:EOLhyphen"/>ings.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>CHAP. IX.</head>
+               <head type="sub">
+                  <hi>How to make your Applica<g ref="char:EOLhyphen"/>tions to God in ordinary Doubts and Difficulties.</hi>
+               </head>
+               <p>REmember to acquit your ſelf of this Duty of Confidence, of
+<pb n="48" facs="tcp:31226:31"/>which I ſpeak, in the oc<g ref="char:EOLhyphen"/>caſions, where you ought to deliberate upon ſome un<g ref="char:EOLhyphen"/>foreſeen event, or of ſome difficulty, that troubles you; where you cannot well perceive, what you are to do, nor what Re<g ref="char:EOLhyphen"/>ſolutions you are to take. Give, O Lord, a word in my Mouth and counſel in my Heart. Send forth, O my God, your light, to direct me. By ſome mark of your Wiſdom teach my Soul, what to Anſwer, what 'tis to do in this con<g ref="char:EOLhyphen"/>juncture, and which is the
+<pb n="49" facs="tcp:31226:31"/>beſt means of thoſe, that occur to me; or, that my Friends propoſe, direct my Path, and permit me not to go aſtray. I ſee a great many Adviſes, but <hi>I</hi> deſire to know, which is yours, give me a know<g ref="char:EOLhyphen"/>ledge of it, and with your Hand direct, and guide my Inclinations to bend that way, you direct, and to pitch upon the choice, you inſpire, <hi>I</hi> cannot but act prudently, and proſpe<g ref="char:EOLhyphen"/>rouſly, whilſt the ſplen<g ref="char:EOLhyphen"/>dour of your Wiſdom ſhines upon me, to direct
+<pb n="50" facs="tcp:31226:32"/>me in the Darkneſs <hi>I</hi> am in, when your Light ſhines upon my Head, by it <hi>I</hi> ſhall walk ſecurely, in the midſt of Darkneſs.</p>
+               <p>In a word, Live in a continual exerciſe and communication with God: Look upon him no other<g ref="char:EOLhyphen"/>wiſe, than a powerful and faithful Friend, who is night and day by your fide. Have with him, as <hi>I</hi> have ſaid, the moſt free and amorous Familiari<g ref="char:EOLhyphen"/>ty you can, confiding e<g ref="char:EOLhyphen"/>ven your Diffidences and Fears to him; as alſo your
+<pb n="51" facs="tcp:31226:32"/>moſt hidden Weakneſſes, all your Thoughts, and Deſires; and the different Motions of your irreſo<g ref="char:EOLhyphen"/>lute Prudence, or your ſecret Diſquiets. Before thee, O God, is all my Deſire, and my Groans are not hid from thee.</p>
+            </div>
+            <div n="10" type="chapter">
+               <pb n="52" facs="tcp:31226:33" rendition="simple:additions"/>
+               <head>CHAP. X.</head>
+               <head type="sub">
+                  <hi>He is not diſpleas'd with every Complaint to him of himſelf; and in what manner we may do it.</hi>
+               </head>
+               <p>GOd is ſo well pleas'd that you ſhould ſpeak to him in a Fami<g ref="char:EOLhyphen"/>liar and Friendly man<g ref="char:EOLhyphen"/>ner, that though you ſhould have a mind now and then, even to com<g ref="char:EOLhyphen"/>plain of his own Provi<g ref="char:EOLhyphen"/>dence, and of that Severity wherewith he ſeems to treat you, he will not
+<pb n="53" facs="tcp:31226:33"/>be angry at it; provided it be done in an Amo<g ref="char:EOLhyphen"/>rous and Reſpectful way. When you are over<g ref="char:EOLhyphen"/>whelm'd with Grief, and can receive no Anſwer to your Prayers; you may imitate our Bleſſed Sa<g ref="char:EOLhyphen"/>viour on the Croſs, and lovingly Cry out unto him, <hi>My God, my God, why haſt thou forſaken me?</hi> You may ſay with <hi>Da<g ref="char:EOLhyphen"/>vid, Why, O Lord, have you gone from me, and do de<g ref="char:EOLhyphen"/>ſpiſe me in the occaſion?</hi> What is this, O my God, that you know
+<pb n="54" facs="tcp:31226:34"/>me not, when <hi>I</hi> weep, and withdraw your ſelf from me, whilſt <hi>I</hi> am bath'd in Tears, and have moſt need of your Comfort, and your help<g ref="char:EOLhyphen"/>ing hand, <hi>&amp;c.</hi>
+               </p>
+               <p>
+                  <hi>I</hi> cry unto you, and you hear me not; <hi>I</hi> ſtand before you, and you behold me not; you are chang'd and be<g ref="char:EOLhyphen"/>come cruel towards me. Where are you, O my Divine Saviour? Where is your Mercy? Where is your Love? <hi>I</hi> call you, and you anſwer me not;
+<pb n="55" facs="tcp:31226:34"/>
+                  <hi>I</hi> cry out as loud, as <hi>I</hi> am able, and you do not hear me: <hi>I</hi> make known the grief that oppreſſes me, and the deplorable condition <hi>I</hi> am in, and you turn your face from me, and will not behold me.</p>
+               <p>But after theſe pious Complaints, fail not to return to your Senti<g ref="char:EOLhyphen"/>ments of Confidence, and Humility: Yet, O Lord, you do not ſtretch out your Hand to con<g ref="char:EOLhyphen"/>ſume me. Tho', great God, you are angry, yet
+<pb n="56" facs="tcp:31226:35"/>
+                  <hi>I</hi> perceive, your deſign is not to deſtroy me; all theſe blowes from your Hands are favourable ſtroakes, and preſage my Happineſs. 'Tis your Goodneſs, is the cauſe of my Suffering; the more <hi>I</hi> ſuffer, the more <hi>I</hi> am aſſur'd of your Love, and that your Providence hath ſecret Thoughts, and deſigns of Love to<g ref="char:EOLhyphen"/>wards me; which, when <hi>I</hi> leaſt hope for them, will comfort me and ſurpaſs my deſires. Behold thou art our God, we expected
+<pb n="57" facs="tcp:31226:35"/>thee, and thou ſhalt ſave us, we waited, and we ſhall exult, and rejoyce in thy Salvation.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="58" facs="tcp:31226:36"/>
+               <head>CHAP. XI.</head>
+               <head type="sub">
+                  <hi>We are to repreſent the Af<g ref="char:EOLhyphen"/>flictions of others unto God, as well as our own.</hi>
+               </head>
+               <p>YOu do well to think of your Troubles and Pains, when you are in his preſence; but think alſo of thoſe, that others ſuffer. Tell him the News of thoſe, you know, and en<g ref="char:EOLhyphen"/>deavour to draw ſome Grace and Mercy from his Heart for the Comfort of ſuch, as according to the <hi>Prophet,</hi> are nou<g ref="char:EOLhyphen"/>riſh'd
+<pb n="59" facs="tcp:31226:36"/>upon Earth with the Bread of Tears, their Miſery is the ordinary ſub<g ref="char:EOLhyphen"/>ject of diſcourſe; they Talk and make Complaint of it in all Companies; but the Complaints, they make, profit them very little. They will do them ſervice, Devout Soul, when in your fami<g ref="char:EOLhyphen"/>liar Entertainments you make them, and recount them to God; telling him the Poverty and Mi<g ref="char:EOLhyphen"/>ſeries, you know are in ſeveral Families. In Truth, my dear Maſter,<hi>I</hi> can go
+<pb n="60" facs="tcp:31226:37"/>no where, but <hi>I</hi> find ſome Tears, and <hi>I</hi> may ſay with Truth, that from the time, <hi>I</hi> knew, and began to converſe with Men, <hi>I</hi> have ſcarce known one without a Complaint, and whom <hi>I</hi> have not beheld to ſhed juſt Tears of grief. It ſeems to me, <hi>I</hi> am born only to behold Afflicti<g ref="char:EOLhyphen"/>ons, and afflicted People, and to behold them with a ſeeming Cruelty, not being able to help them.</p>
+               <p>This want of Power, O my God, is in effect
+<pb n="61" facs="tcp:31226:37"/>one of the ſaddeſt Affli<g ref="char:EOLhyphen"/>ctions, <hi>I</hi> ſuffer in this mi<g ref="char:EOLhyphen"/>ſerable Life, as often as <hi>I</hi> ſee ſuch Creatures, as be<g ref="char:EOLhyphen"/>long to you, and are dear to you, to come, and with Tears to bewail their mi<g ref="char:EOLhyphen"/>ſeries before my eyes; and that <hi>I</hi> am forc'd to aban<g ref="char:EOLhyphen"/>don them as others do, and to tell them, expect no<g ref="char:EOLhyphen"/>thing from me, 'tis impoſ<g ref="char:EOLhyphen"/>ſible for me to help you.</p>
+               <p>
+                  <hi>I</hi> ſpeak ſincerely, that for theſe thirty or forty years, that every day <hi>I</hi> have beheld ſad objects of compaſſion <hi>I</hi> remember
+<pb n="62" facs="tcp:31226:38"/>not to have been able to make one of them happy, nor to ſend him away with that comfort, he de<g ref="char:EOLhyphen"/>ſired.</p>
+               <p>It would be, my dear Spouſe, an enormous crime, and a deteſtable hardneſs of heart to be inſenſible of their pains; but 'tis a great miſery to feel them, and not be able at all to help them, or comfort them.</p>
+               <p>Many Holy Perſons go to the Rich and Happy in the World, to beg Chari<g ref="char:EOLhyphen"/>ties, and to gather Alms,
+<pb n="63" facs="tcp:31226:38"/>to carry to the Sick and Shame-fac'd Poor, whom they know. <hi>I</hi> do the ſame, and at preſent <hi>I,</hi> who ſpeak to you, ſeek help and comfort for them; but 'tis to you, my belo<g ref="char:EOLhyphen"/>ved, <hi>I</hi> addreſs my ſelf, you have your hands full of Comforts, and Bene<g ref="char:EOLhyphen"/>dictions, neceſſary for them. <hi>I</hi> offer up my hands to receive them in Adoration of you, caſting my ſelf at your feet. Suf<g ref="char:EOLhyphen"/>fer me not, O God, to riſe without obtaining ſome Grace in their fa<g ref="char:EOLhyphen"/>vour.
+<pb n="64" facs="tcp:31226:39"/>Send your Elect to them, to carry your Charities, or to tell them ſome welcom News, that may draw them out of the Abyſs of Sadneſs, in which they are, and may unexpectedly make them revive.</p>
+               <p>
+                  <hi>I</hi> have, O my God, e<g ref="char:EOLhyphen"/>verlaſting infinite Obli<g ref="char:EOLhyphen"/>gations to you. You know, every hour my heart is in pain, how it may make thankful Re<g ref="char:EOLhyphen"/>turns for your Favours, uſing the words of the Royal Prophet, <hi>What ſhall
+<pb n="65" facs="tcp:31226:39"/>I return unto the Lord, for all his Benefits beſtowed upon me?</hi> And your ordi<g ref="char:EOLhyphen"/>nary anſwer to me, is, That whatſoever <hi>I</hi> do to any, that is in ſufferance, you take it as done to your ſelf; and retain as grate<g ref="char:EOLhyphen"/>ful a reſentment of it, as if the Afflictions were your own, as if you alone receiv'd the Comfort. Be<g ref="char:EOLhyphen"/>ſtow upon me therefore, what you would have me give them, and permit me not to be any longer ſo unhappy, as to behold my God in Afflictions
+<pb n="66" facs="tcp:31226:40"/>and ſuffering all the Mi<g ref="char:EOLhyphen"/>ſeries, the Neceſſitous un<g ref="char:EOLhyphen"/>dergo, as well as the Sick, and Priſoners, and not to be able to help him.</p>
+               <p>My dear Creator, you ſay unto me, behold your Brother, your Siſter, that languiſh upon Straw, and want aſſiſtance. Behold other Souls, ſuffering Sad<g ref="char:EOLhyphen"/>neſs, and Deſpair, who call you to help them; and <hi>I</hi> anſwer you, O my God, in tears, give what you command me to do, and command what you pleaſe.</p>
+            </div>
+            <div n="12" type="chapter">
+               <pb n="67" facs="tcp:31226:40"/>
+               <head>CHAP. XII.</head>
+               <head type="sub">
+                  <hi>We are to have recourſe to God, no leſs in Proſpe<g ref="char:EOLhyphen"/>rity, than in Adverſity.</hi>
+               </head>
+               <p>'TIs ordinary enough for Devout Souls, nay almoſt all Chriſtians, to have Recourſe, and ſpeak to God in their Af<g ref="char:EOLhyphen"/>flictions, and to paſs whole hours with him in time of trouble; but 'tis as ordi<g ref="char:EOLhyphen"/>nary, that they forget their Duty in time of Proſperi<g ref="char:EOLhyphen"/>ty. Forget not yours, O Faithful <hi>Sunamite,</hi> ſays St.
+<pb n="68" facs="tcp:31226:41"/>
+                  <hi>Bernard,</hi> and do not imi<g ref="char:EOLhyphen"/>tate the Examples of ingratitude, which appear in the lives of moſt Men; nay, even in ſome of your Companions, how ſpiri<g ref="char:EOLhyphen"/>tual and ſcrupulous ſoever they may ſeem to be in other occaſions.</p>
+               <p>'Tis a ſtrange thing, that, when our Deſigns proſper, and that we are happy, one of our moſt ſenſible Joys is to ac<g ref="char:EOLhyphen"/>quaint our Friend with it; and yet notwithſtan<g ref="char:EOLhyphen"/>ding, as Devout as we are, we neglect to tell God,
+<pb n="69" facs="tcp:31226:41"/>and thereby to receive the moſt ſweet and holy Comfort, that can be drawn out of the happi<g ref="char:EOLhyphen"/>neſs of this miſerable life. That is, to enterain our ſelves with our amiable Benefactor, and to teſtifie to him our ſenſe, and grateful acknowledgment for his Favours.</p>
+               <p>You, who love your Duty, teſtifie yours after the moſt faithful and ſin<g ref="char:EOLhyphen"/>cere manner you are able, give him an account of the happy ſtate of your Affairs, of the ſucceſs of
+<pb n="70" facs="tcp:31226:42"/>your Labour, and of your Conduct, being enlight<g ref="char:EOLhyphen"/>ned by his Charity.</p>
+               <p>Speak to him each thing, as the <hi>Sunamite</hi> did, lead him amongſt your Treaſures, ſhew him all, you poſſeſs through the greatneſs of his Liberality and Favour towards you. <hi>My Beloved</hi> ſays ſhe, <hi>Behold here the Fruits at our Gates and within our Incloſures; whereſoever I caſt my eyes, I ſee nothing but Abundance and Fruitfulneſs, and the Branches charg'd with your Benedictions and Preſents.
+<pb n="71" facs="tcp:31226:42"/>What a Sweetneſs my dear Spouſe, what a Plenty have you pour'd down upon our Fruit-trees! What Riches are heap'd together by your Providence and Love! 'Tis you, that made the Corn and Fruit to grow, and are cauſe of that plentiful Harveſt of our Neighbouring Fields. You are the Inventor and Origine of this multitude of Conveniencies, that ſuſtain our Life, and comfort us here below.</hi>
+               </p>
+               <p>I receive them only, to return them to you. For by receiving Temporal
+<pb n="72" facs="tcp:31226:43"/>Benefits, we ought to per<g ref="char:EOLhyphen"/>form two things, <hi>to wit,</hi> Praiſe you, and Love you.</p>
+               <p>The uſe, becauſe you will have it ſo, ſhall be for us, but the Honour and Love for you alone. <hi>I</hi> will therefore ſay, <hi>Not unto us, O Lord, not unto us; but unto thy Name be all Honour and Glory.</hi> The Glory of ſo great proſpe<g ref="char:EOLhyphen"/>rity is only due to God: Neither my hands, nor the hands of any Crea<g ref="char:EOLhyphen"/>ture have produc'd it, and therefore none ſhall ſhare
+<pb n="73" facs="tcp:31226:43"/>in his Praiſe or Love: <hi>I</hi> owe nothing to any, but himſelf; nay, I will not ſo much as love his Gifts or Liberalities, as precious as they are: I ought to re<g ref="char:EOLhyphen"/>ceive and poſſeſs the Gifts, but I ought to Love no<g ref="char:EOLhyphen"/>thing but the Giver.</p>
+               <p>You, my God, who know all things; know, that they are not your Preſents, which make me Happy. <hi>I</hi> have a thou<g ref="char:EOLhyphen"/>ſand times told you, what <hi>I</hi> now repeat, that amidſt all the Riches, and all the Felicities; and amidſt all
+<pb n="74" facs="tcp:31226:44"/>the Worlds, you can Create; there is nothing, that <hi>I</hi> can or will Love, but you. My Love is on<g ref="char:EOLhyphen"/>ly yours, and you alone ſhall be eternally the God of my Heart, and my everlaſting Inheritance.</p>
+            </div>
+            <div n="13" type="chapter">
+               <pb n="75" facs="tcp:31226:44" rendition="simple:additions"/>
+               <head>CHAP. XIII.</head>
+               <head type="sub">
+                  <hi>Our Imperfections in our Devotions ought not to hinder a confident re<g ref="char:EOLhyphen"/>courſe to him.</hi>
+               </head>
+               <p>APply your ſelf with particular care to ſpeak to him moſt famili<g ref="char:EOLhyphen"/>arly, and freely, when that happens to you, which is but too ordinary in the ex<g ref="char:EOLhyphen"/>erciſes of a devout Life, <hi>to wit,</hi> when you find in your Soul certain negligen<g ref="char:EOLhyphen"/>ces, and diſcouragements, as Spiritual tediouſneſs,
+<pb n="76" facs="tcp:31226:45"/>weariſomneſs, and diſguſt, of which you know not any cauſe, ſuch as <hi>David</hi> complain'd of, ſaying, <hi>My Soul is dry'd up within me. I</hi> cannot tell you, O my God, how <hi>I</hi> am, nor in what condition <hi>I</hi> find my ſelf; My Soul is much out of order: No<g ref="char:EOLhyphen"/>thing reliſhes with it, no<g ref="char:EOLhyphen"/>thing can pleaſe it: Nay, 'tis as diſpleaſing to it ſelf, as other things are: Nay, it ſeems, as if you were no longer pleaſing to it, or at leaſt <hi>I</hi> cannot bring it at preſent, to make ſo
+<pb n="77" facs="tcp:31226:45"/>much as one act of Love or Adoration. <hi>I</hi> ſay my Prayers without any De<g ref="char:EOLhyphen"/>votion, and with a ſhame<g ref="char:EOLhyphen"/>ful Negligence. It is not poſſible for me in your Preſence to keep my ſelf with that Duty, and Reſpect, <hi>I</hi> ought; nor to free my ſelf from that Drowſineſs and La<g ref="char:EOLhyphen"/>ſineſs, that even makes me ſleep at your feet, inſtead of hearkening to you; as <hi>David</hi> ſaid, <hi>My Soul out of Tediouſneſs, even ſlept within me.</hi>
+               </p>
+               <pb n="78" facs="tcp:31226:46"/>
+               <p>
+                  <hi>I</hi> know not, whence this humour proceeds; yet <hi>I</hi> know, 'tis diſpleaſing to you, and that it offends you: And you know, 'tis diſpleaſing to me alſo, and that 'tis a great pain and confuſion to me, to find my ſelf in this condition. But that, which comforts me, is, that in your words you carry my Cure. If you have compaſſion of my infirmity, ſpeak, and Cure me: Confirm me in your Words. Remember, O admirable Omnipotence, that of my ſelf <hi>I</hi> am no<g ref="char:EOLhyphen"/>thing
+<pb n="79" facs="tcp:31226:46"/>but Weakneſs and Miſery; all my force de<g ref="char:EOLhyphen"/>pends on your Lips, and proceeds from your Eyes. Look upon me, O Di<g ref="char:EOLhyphen"/>vine Saviour, and ſpeak but a word: Life, Cou<g ref="char:EOLhyphen"/>rage, and Grace will en<g ref="char:EOLhyphen"/>ter with your Words, and will give a new Birth to my Soul; which is truly entomb'd, whilſt 'tis thus a ſleep, and in a manner bury'd in its Body by Sloth. <hi>My Soul ſlept out of Sloth, confirm me in your Words,</hi> ſaid the Royal Prophet.</p>
+            </div>
+            <div n="14" type="chapter">
+               <pb n="80" facs="tcp:31226:47"/>
+               <head>CHAP. XIV.</head>
+               <head type="sub">
+                  <hi>How multiplicity of Buſi<g ref="char:EOLhyphen"/>neſs is no hindrance to this Converſation.</hi>
+               </head>
+               <p>OTher times hap<g ref="char:EOLhyphen"/>pen, very different from theſe, but no leſs troubleſome, and as con<g ref="char:EOLhyphen"/>trary to the deſign, you ought to have of keeping your Soul al<g ref="char:EOLhyphen"/>ways in Peace, and preſent to God, and not permitting it to be carry<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d away from him, either by diſquiet or
+<pb n="81" facs="tcp:31226:47"/>diſtraction. 'Tis, when the multitude of Affairs oblige us, as they did St. <hi>Martha,</hi> to deprive our ſelves of St. <hi>Mary Magda<g ref="char:EOLhyphen"/>lens</hi> Happineſs, and to run to and fro, and to caſt our Eyes and Thoughts in every corner of the Houſe, to take care of an infinite number of Things. For how is it poſſible at ſuch a time, whilſt our minds are taken up with ſo many Affairs; and about the conduct of ſo many Per<g ref="char:EOLhyphen"/>ſons, to remain at the
+<pb n="82" facs="tcp:31226:48"/>Feet of our Saviour, and to poſſeſs with repoſe the comfort of his Entertain<g ref="char:EOLhyphen"/>ments?</p>
+               <p>Yes, devout Soul, 'tis poſſible. Without doubt you may do it as eaſily, as the <hi>Sunamite,</hi> who gives an example very ſweet, and eaſie to fol<g ref="char:EOLhyphen"/>low, during the heat of your Affairs, and the multitude of your Do<g ref="char:EOLhyphen"/>meſtick Imployments.</p>
+               <p>See what ſhe doth, and you'l confeſs, 'tis an in<g ref="char:EOLhyphen"/>excuſable errour to be<g ref="char:EOLhyphen"/>lieve, that the buſineſs
+<pb n="83" facs="tcp:31226:48"/>you are imploy'd in by Duty, and by Gods com<g ref="char:EOLhyphen"/>mand, ſhould conſtrain you to forget your ſelf, or God. For if, whilſt you are acting, your actions do not hinder you from ſpea<g ref="char:EOLhyphen"/>king about your buſineſs, to the Perſons you deal withal; why ſhould they hinder you from ſpeaking to him you love, or from doing, as the Laborious Spouſe did, even upon the day of her greateſt Im<g ref="char:EOLhyphen"/>ployment, when ſhe was oblig'd to give orders to the great number of her
+<pb n="84" facs="tcp:31226:49"/>Domeſticks, and by her vigilancy to keep them aſſiduous to their works. Behold her, I ſay, and Judge, whether the re<g ref="char:EOLhyphen"/>poſe of a contemplative, be more agreeable than this her holy and active Life? <hi>Let us riſe this Morning,</hi> ſays ſhe, get<g ref="char:EOLhyphen"/>ting up, <hi>let us riſe, and go to the Vineyards, let us ſee, whether the Vines have Flower'd, and if the Flow<g ref="char:EOLhyphen"/>ers bring forth Fruit, whe<g ref="char:EOLhyphen"/>ther the Peaches have bud<g ref="char:EOLhyphen"/>ded.</hi> My dear Maſter, 'tis time to go to work,
+<pb n="85" facs="tcp:31226:49"/>and to think of our buſi<g ref="char:EOLhyphen"/>neſs, but do not leave me alone, amidſt the labours. I fear them not, how great ſoever they are, ſo they ſeparate me not from you, and that, ſo long as I work, you keep my eyes and my thoughts inſepa<g ref="char:EOLhyphen"/>rably fix'd upon your preſence, and faſt ty'd to your heart. Let us go to<g ref="char:EOLhyphen"/>gether, and take a walk about our Cloſe; let us behold the Vineyards, in what condition they are, and whether they are advanc'd, as they
+<pb n="86" facs="tcp:31226:50"/>ought to be, in ſo favou<g ref="char:EOLhyphen"/>rable a ſeaſon. Let us viſit our Nurſery, and ſee, whether the Trees proſ<g ref="char:EOLhyphen"/>per, and whether our Plants thrive; let us viſit our Farm, and ſee whe<g ref="char:EOLhyphen"/>ther the Labourers mind their Work; whether the Shepherds are vigilant, and whether the Servants and other Officers do their Duty: Let us go and give Order, that each one take care of his work, and be imploy'd, as he ought.</p>
+               <pb n="87" facs="tcp:31226:50"/>
+               <p>But one thing more yet my Beloved, do not leave me, for nothing can be troubleſom, or incom<g ref="char:EOLhyphen"/>mode me, whilſt you are preſent to my mind, and whilſt I hearken to your Voice. Speak to my Soul, whilſt my Body is em<g ref="char:EOLhyphen"/>ploy'd in your Service, and in regulating the Fa<g ref="char:EOLhyphen"/>mily, which you are pleas'd to confide to my Care, and Conduct.</p>
+               <p>When being at work, we ſpeak to God of what we are about, the work is no more a diſtraction,
+<pb n="88" facs="tcp:31226:51"/>but a Devotion of great merit. Devout <hi>Martha,</hi> who thinks of Temporal Affairs, and has all the cares of the Houſe upon her, is not diſturb'd, but rather comforted, by com<g ref="char:EOLhyphen"/>plaining to her Saviour, and making every thing that happens, an occa<g ref="char:EOLhyphen"/>ſion of ſpeaking to him: telling him ever, that it is for him, ſhe labours, and that ſhe is happy to la<g ref="char:EOLhyphen"/>bour, and tire out her ſelf, whilſt he beholds her.</p>
+               <pb n="89" facs="tcp:31226:51"/>
+               <p>Do not doubt, when in the midſt of a multitude of Employments, you're re<g ref="char:EOLhyphen"/>member to ſay to our Lord, what you ſay to o<g ref="char:EOLhyphen"/>thers, <hi>to wit,</hi> that you are even overwhelmed with them, and that you Com<g ref="char:EOLhyphen"/>municate to him, with Confidence ſuch thoughts, as this Turmoil occaſions, but that all your Diſtra<g ref="char:EOLhyphen"/>ctions will immediately change into ſo many Acts of Divine Love. The contemplative <hi>Magdalens</hi> may perhaps have more ſweetneſs, but they can<g ref="char:EOLhyphen"/>not
+<pb n="90" facs="tcp:31226:52"/>have more Merit. A Soul, that withdraws not her ſelf from God, whilſt ſhe walks or runs about the ſtreets, is far better, than ſhe, that lets, her Thoughts wander whilſt ſhe is at her Prayers.</p>
+            </div>
+            <div n="15" type="chapter">
+               <pb n="91" facs="tcp:31226:52"/>
+               <head>CHAP. XV.</head>
+               <head type="sub">
+                  <hi>The greater familiarity you uſe with God, the more pleaſing 'tis to him.</hi>
+               </head>
+               <p>IN fine, ſpeak to him of all things, which you ſpeak of to your ſelf; and do it after all ſuch manners, as Love ſhall ſuggeſt.</p>
+               <p>At leaſt imprint this maxime deeply in your Heart, that as you have not a Maſter, whom you ought to Fear and Reſpect as God: So
+<pb n="92" facs="tcp:31226:53"/>you have not a Friend, be it Brother or Siſter, to whom you may ſpeak with that Liberty and Confidence, as to him.</p>
+               <p>They, that imagine freedom of Speech with him to be againſt the Law of Worſhip and Submiſſion, due to his Preſence, and his Divine Majeſty are much de<g ref="char:EOLhyphen"/>ceived.</p>
+               <p>Many are apt to be<g ref="char:EOLhyphen"/>lieve, that, what Ghoſt<g ref="char:EOLhyphen"/>ly Fathers ſay in this par<g ref="char:EOLhyphen"/>ticular, are only thoughts of their Simplicity, con<g ref="char:EOLhyphen"/>trary
+<pb n="93" facs="tcp:31226:53"/>to ſerious and ſolid Devotion, and to that Holy Doctrin, which con<g ref="char:EOLhyphen"/>demns as <hi>Illuſion</hi> and Irre<g ref="char:EOLhyphen"/>verence, all theſe pretend<g ref="char:EOLhyphen"/>ed Confidences, and ſeem<g ref="char:EOLhyphen"/>ing bold and Preſumptu<g ref="char:EOLhyphen"/>ous Converſations with God, affirming, that we are in his ſight but Duſt and Aſhes, and that in his Preſence only Thoughts of profound Humility, and Annihila<g ref="char:EOLhyphen"/>tion, and Devotions, ten<g ref="char:EOLhyphen"/>ding thereunto, are to take place,</p>
+               <pb n="94" facs="tcp:31226:54"/>
+               <p>But alas! How feeble and weak do theſe pre<g ref="char:EOLhyphen"/>tended Devotes ſhew themſelves, whilſt they think, they ſpeak very ſolidly. They underſtand very little, in what the greatneſs of God con<g ref="char:EOLhyphen"/>ſiſts, and are far from conceiving, that mor<g ref="char:EOLhyphen"/>tal and earthly Great<g ref="char:EOLhyphen"/>neſs is very ſmall and in<g ref="char:EOLhyphen"/>conſiderable, and infinite<g ref="char:EOLhyphen"/>ly leſs than that of GOD, becauſe it cannot ſuit, or equal it ſelf to little things, when Wiſdom and Love obliges it ſo to do.</p>
+               <pb n="95" facs="tcp:31226:54"/>
+               <p>Take notice, if you pleaſe, that the Immen<g ref="char:EOLhyphen"/>ſity of God, infinitely ſurpaſſes other Immen<g ref="char:EOLhyphen"/>ſities, and that it alone is Divine and Soveraign, becauſe at the ſame time it is of greater extent then the World; it is alſo as little, as the leaſt Crea<g ref="char:EOLhyphen"/>ture, and that 'tis as in<g ref="char:EOLhyphen"/>tirely in a little Flower, as in the whole Univerſe, and in the Imperial Hea<g ref="char:EOLhyphen"/>ven, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſays a Holy Father of him, <hi>God is greater than all, and equal to all.</hi>
+               </p>
+               <pb n="96" facs="tcp:31226:55"/>
+               <p>Meditate but a little, Devout Soul, on this Truth, and by it you will clearly diſcern that God is the moſt ami<g ref="char:EOLhyphen"/>able and lovely of all thoſe whom you Love, and which alſo Love you; and that he is the true and only object of Love, becauſe in him a<g ref="char:EOLhyphen"/>lone you will find the two moſt neceſſary things to be Lov'd; to wit, Supe<g ref="char:EOLhyphen"/>riority and Equality, that is, a great Infinity, which Infinity elevates him a<g ref="char:EOLhyphen"/>bove you, and an infinite
+<pb n="97" facs="tcp:31226:55"/>Goodneſs, that (as <hi>I</hi> may ſay) leſſens him ſo far, as to be equal with you; there<g ref="char:EOLhyphen"/>by to bring to paſs, that all his Perfections and Power; may, as it were, be able to enter into your heart, and thereby render you infinitely and eter<g ref="char:EOLhyphen"/>nally Happy. He alone is your Maſter and equal: And therefore 'tis of him, you may ſay with Truth, <hi>My beloved to me, and I to him.</hi> Notwithſtand he is God, and I am nothing, by an ineffable Myſtery, he is fit for me, and I for
+<pb n="98" facs="tcp:31226:56" rendition="simple:additions"/>him. His Wiſdom has taken my meaſure upon him, and rendred my little<g ref="char:EOLhyphen"/>neſs capable after ſome manner of containing his Immenſity.</p>
+            </div>
+            <div n="16" type="chapter">
+               <head>CHAP. XVI.</head>
+               <head type="sub">
+                  <hi>When particular Reverence is to be ſhown.</hi>
+               </head>
+               <p>WHerefore O holy <hi>Sunamite,</hi> in the Church, and at times of Adoration and Divine Myſteries, appear not in his Preſence, but as an annihilated Shadow, by a
+<pb n="99" facs="tcp:31226:56"/>profound Humility: But in the places, and at the times, I have before ſpoken of, and during your Solitary and Dome<g ref="char:EOLhyphen"/>ſtick Converſations, you are both to blame, and ungrateful, if you have not all the liberty, familia<g ref="char:EOLhyphen"/>rity, and tenderneſs that one ought to have for a Spouſe, he tenderly Loves; and at ſuch times ſpeak no other Language, but that of Tenderneſs and Love.</p>
+               <p>'Tis there he ſtiles you his Beloved, his unſpoted Dove, and even forbids
+<pb n="100" facs="tcp:31226:57"/>you to call him Lord and Maſter. <hi>Call me,</hi> ſays he, <hi>the God of your Heart, the God of your Comfort, the Father of the Mercies you expect, the Beloved of your Hopes and Deſires, the moſt Lovely, the moſt Perfect, your All and your only One, whoſe Heart is but one with yours, and whoſe Grace enters into your Soul, to be its Life, ne<g ref="char:EOLhyphen"/>ver to be ſeparated from it: commanding you not to call him hereafter</hi> Baalim, <hi>that is, Lord, but to call him the Spouſe.</hi>
+               </p>
+            </div>
+            <div n="17" type="chapter">
+               <pb n="101" facs="tcp:31226:57"/>
+               <head>CHAP. XVII.</head>
+               <head type="sub">
+                  <hi>How to Diſcourſe with God concerning Himſelf.</hi>
+               </head>
+               <p>MOreover, during theſe Colloquies, do not always ſpeak of thy ſelf, nor of thy own Affair, nor of thy own Comfort, or Afflictions, but Change thy Di<g ref="char:EOLhyphen"/>ſcourſe, and after thou haſt made thy complaints or entertain'd him with what happens in thy Houſhold Affairs, Ele<g ref="char:EOLhyphen"/>vate thy Mind, and En<g ref="char:EOLhyphen"/>tertain
+<pb n="102" facs="tcp:31226:58"/>him, with what belongs to himſelf.</p>
+               <p>Speak to him of his Happineſs and Greatneſs, of his Divine Attributes and Operations, of the power of his Word, when by it he gave a Being to all Creatures, and drew them out of their eternal nothing; ſpeak to him in the Language of the Saints, who by Sighs and devout Exclamations ſhew'd their Eloquence, whilſt they prais'd his Works: How admirable is thy Name! How mag<g ref="char:EOLhyphen"/>nificent
+<pb n="103" facs="tcp:31226:58"/>are thy Works! And how profound thy Thoughts! O Wiſdom, that haſt form'd this great World. How Sublime art thou, and how in<g ref="char:EOLhyphen"/>comprehenſible in thy Thoughts, how profound art thou in thy Deſigns! How magnificent and ad<g ref="char:EOLhyphen"/>mirable in thy Works! What a vaſt Immenſity do the Heavens contain, what a Luſtre and Bright<g ref="char:EOLhyphen"/>neſs do thoſe uncorrup<g ref="char:EOLhyphen"/>tible Lights, ranged in ſo Beautiful an Order, ſend forth; what a variety of
+<pb n="104" facs="tcp:31226:59"/>Goods doth the Earth produce, and the Sea, and other Elements bring forth? How great a mag<g ref="char:EOLhyphen"/>nificence and Beauty have all theſe Creatures, and how pleaſing a thing it is to Contemplate them in Silence, and to let our Soul be fill'd with Admi<g ref="char:EOLhyphen"/>ration, and Heavenly Thoughts, whilſt it con<g ref="char:EOLhyphen"/>ſiders them! Thy Power and Juſtice reacheth to the higheſt, how great things haſt thou made! O God, who is like unto thee?</p>
+            </div>
+            <div n="18" type="chapter">
+               <pb n="105" facs="tcp:31226:59"/>
+               <head>CHAP. XVIII.</head>
+               <head type="sub">
+                  <hi>How to Treat with Him of his Birth and Paſſion.</hi>
+               </head>
+               <p>BE not forgetful alſo of the greateſt of all his Miracles, the Incar<g ref="char:EOLhyphen"/>nation of the Word, and the Redemption of Man<g ref="char:EOLhyphen"/>kind. Tell him, this is the ordinary ſubject of your Meditation every day, as it is the ſubject of the Meditation of the Angels in Paradiſe for Eternity. O Redeemer of my Life, how often
+<pb n="106" facs="tcp:31226:60"/>do I think of them, and how ſweet a repoſe doth the Contemplation of your Crib, and Croſs, your Glorious Annihila<g ref="char:EOLhyphen"/>tions bring along with them.</p>
+               <p>Hereupon call to mind ſuch Thoughts, as oc<g ref="char:EOLhyphen"/>curr'd, during your Me<g ref="char:EOLhyphen"/>ditations, or thoſe, you have read in Books, or heard in Sermons. Re<g ref="char:EOLhyphen"/>count them, as things, you cannot forbear Speaking or Meditating of, and mingle with them Acts of Love, Thankſgiving,
+<pb n="107" facs="tcp:31226:60"/>Admiration, and Faith: I believe thoſe ineſtim<g ref="char:EOLhyphen"/>mable Myſteries, what your Church and Goſpel Teaches; I have believed them ever ſince my Birth; and I ſay every day, and will ſay to the hour of my Death, that Jeſus Chriſt Crucified is my Lord and my God. This is the firſt Word, they taught me in my Cradle, and <hi>I</hi> hope it will be the laſt, <hi>I</hi> ſhall pronounce, going out of the World; and that <hi>I</hi> ſhall bear Engraven up<g ref="char:EOLhyphen"/>on my Heart, going to
+<pb n="108" facs="tcp:31226:61" rendition="simple:additions"/>appear in Judgment: <hi>My Lord and my God.</hi>
+               </p>
+            </div>
+            <div n="19" type="chapter">
+               <head>CHAP. XIX.</head>
+               <head type="sub">
+                  <hi>How to Converſe with God concerning the Sins of our paſt Life.</hi>
+               </head>
+               <p>TEll him with De<g ref="char:EOLhyphen"/>votion, that up<g ref="char:EOLhyphen"/>on the Croſs you do no leſs clearly behold your own Humiliations and the Diſgraces of your Life, then the Exaltations of the Juſtice and Goodneſs of God.</p>
+               <pb n="109" facs="tcp:31226:61"/>
+               <p>What I would ſay, is, that during theſe ſorts of Converſations with our Saviour, you ought not to fail Entertaining him with the ſins and miſeries of your Youth. Speak of them to this dear Spouſe; and though in your for<g ref="char:EOLhyphen"/>mer days of Pennance you forgot not to tell him all you knew; yet be not afraid to importune him, by humbling your ſelf in repeating the ſame things.</p>
+               <p>Tell him the whole Story of thoſe miſerable years, and all thoſe ſad
+<pb n="110" facs="tcp:31226:62"/>occaſions of offending him, into which your Companions brought you. Remember each fault, Sigh and Lament it with Tears, and exerciſe Acts of Contrition, worthy of thoſe Graces which the Death of your Spouſe hath merited, and which have drawn you out of Hell.</p>
+               <p>That which diſpleaſ<g ref="char:EOLhyphen"/>eth me, my Beloved, and above all afflicts me in theſe my enormous Sins, is, that my Heart is too weak to have hatred
+<pb n="111" facs="tcp:31226:62"/>for them. Alas it is very little that mine alone, and the heart of my Con<g ref="char:EOLhyphen"/>feſſor, who hath known and deplor'd them, ſhould be touch'd with them, <hi>I</hi> wiſh <hi>I</hi> had the heart of all Men and Angels, and with this multitude of Hearts, that <hi>I</hi> were able to form ſuch a vio<g ref="char:EOLhyphen"/>lent hatred, and de<g ref="char:EOLhyphen"/>teſtation, as might e<g ref="char:EOLhyphen"/>qual my Sadneſs and Mi<g ref="char:EOLhyphen"/>ſery. O Lord employ your Power and Mercy: Create in me a new heart, and give it me to no
+<pb n="112" facs="tcp:31226:63"/>other end, but to Love you.</p>
+               <p>This deſire pleaſeth our Saviour, as did the deſire of <hi>David,</hi> St. <hi>Peter,</hi> and many other Penitent Sin<g ref="char:EOLhyphen"/>ners; who, after they had employ'd many years in ſighing and bewai<g ref="char:EOLhyphen"/>ling their Sins, having exhauſted their Tears, asked for thoſe who might raiſe in their Soul ſuch a ſource of bitter Waters, that might not be exhauſted, but might endure their whole Life. <hi>Who will give water
+<pb n="113" facs="tcp:31226:63"/>to my Head, and a Foun<g ref="char:EOLhyphen"/>tain of Tears to my Eyes, that I may Weep day and night?</hi> ſays the Royal Prophet.</p>
+               <p>Contemplating the open Veines of your Cru<g ref="char:EOLhyphen"/>cified Spouſe; O Devout Soul, repeat the ſame Words, but ſay them ſincerely and from your Heart, and rather Sighs of Love, then Words; <hi>Who will give Water to my Head,</hi> &amp;c. O my dear Maſter, how happy ſhould <hi>I</hi> be, to ſee Torrents of Tears flow from
+<pb n="114" facs="tcp:31226:64"/>my Eyes, which might joyn themſelves to the torrent of your Blood, and run together with it in each Corner, where my Sins have been com<g ref="char:EOLhyphen"/>mitted, to the end that thoſe, who have known me a Sinner, may know me alſo a Penitent, and ſee eternal marks of my Sorrow! O all of you, who have heard of the ſcandal of my Life, come and hearken to my Cryes and Lamentations, and behold my Sorrow! Be<g ref="char:EOLhyphen"/>hold it, O my God, and
+<pb n="115" facs="tcp:31226:64"/>conſider, what paſſeth in my Soul. <hi>I</hi> hope in you, in the ſtate <hi>I</hi> am in; have the goodneſs not to refuſe to Love me in it: At leaſt, refuſe not to behold me, and to let that vertue paſs from your Eyes to my Soul, which gives Grace and Life. <hi>Behold me, O God, and conſider me.</hi>
+               </p>
+               <p>God beholds thee, O <hi>Sunamite;</hi> and during theſe holy Hours, in which thou findeſt thy grief and the convulſions of thy af<g ref="char:EOLhyphen"/>flicted Conſcience to re<g ref="char:EOLhyphen"/>turn, he fails not to com<g ref="char:EOLhyphen"/>fort
+<pb n="116" facs="tcp:31226:65"/>thee, repeating by himſelf Interiorly, what he hath cauſed the Prophets and Evangeliſts to tell thee, that thy Sins are par<g ref="char:EOLhyphen"/>doned and blotted out, and that the leaſt ſtain of them remains not in thy Heart. This I know, O Divine Saviour, but there remains ſtill a memory of them in thy mind.</p>
+               <p>Alas, great God, it ſeems little comfort to tell me I pardon you. It ſeems to me, that to make this comfort per<g ref="char:EOLhyphen"/>fect; you ſhould find
+<pb n="117" facs="tcp:31226:65"/>ſome invention to be ignorant of what I have done, and to forget, what<g ref="char:EOLhyphen"/>ever happened to me du<g ref="char:EOLhyphen"/>ring the years of my criminal and ſcandalous Life.</p>
+               <p>For how is it poſſible to live in the preſence of God, who has beheld all my Infidelities, and ſtill remembers them? And how is it poſſible to be comforted by the news, they daily tell me from you, that my Sins are waſh'd in the Blood you ſpilt for me, ſo long as I
+<pb n="118" facs="tcp:31226:66"/>alſo know that they ap<g ref="char:EOLhyphen"/>pear yet in your ſight, and will do ſo for an Eterni<g ref="char:EOLhyphen"/>ty; and that amidſt the Splendours of Paradiſe, the Age of my Ingrati<g ref="char:EOLhyphen"/>tudes will be an Eternal object. <hi>Thou haſt put our Sins in thy ſight, our Age in the light of thy Coun<g ref="char:EOLhyphen"/>tenance.</hi>
+               </p>
+               <p>God, who beholds with pleaſure this kind of holy Fears and Anxie<g ref="char:EOLhyphen"/>ties in your Mind, is ready to give you an en<g ref="char:EOLhyphen"/>tire Conſolation. And when, during theſe fami<g ref="char:EOLhyphen"/>liar
+<pb n="119" facs="tcp:31226:66"/>Entainmens, he Com<g ref="char:EOLhyphen"/>forts you about them; he ſpeaks as One, who by an ineffable Miracle has extended his Power ſo far, as to put all in Oblivion, and buried the memory of your Sins in ſuch an Abyſs, as they ſhall never be able to get out of: He will diſ<g ref="char:EOLhyphen"/>poſe our Iniquities, and caſt our Sins into the depth of the Sea, becauſe he will have Mercy.</p>
+            </div>
+            <div n="20" type="chapter">
+               <pb n="120" facs="tcp:31226:67"/>
+               <head>CHAP. XX.</head>
+               <head type="sub">
+                  <hi>In what manner we are to Treat with God in Scruples, and Fears of our Salvation, or any thing elſe.</hi>
+               </head>
+               <p>BUt if peradventure that ſhould happen to you, which often does even to moſt innocent Souls; to be troubled out of Fear, that ſome hidden Sin lurks ſtill in your Conſcience, or that God has a deſign of anger and Reprobation againſt you;
+<pb n="121" facs="tcp:31226:67"/>as ſoon as you perceive this thought, fail not to enter into your ſelf, and to be angry, and blame your ſelf for this diſquiet, as a fault perhaps more hate<g ref="char:EOLhyphen"/>ful to his Wiſdom and Mercy, than all the Sins you have Committed: Be aſham'd of it, and re<g ref="char:EOLhyphen"/>ſiſt it, as a blaſt from Hell, and ſpeak of it to your Spouſe with abomi<g ref="char:EOLhyphen"/>nation and horror, de<g ref="char:EOLhyphen"/>teſting ſuch a blind and criminal diffidence.</p>
+               <p>In regard alſo of thoſe weakneſſes, which make
+<pb n="122" facs="tcp:31226:68"/>fear the Power of Men or Devils, forming in your imagination ſcruples and Chimerical <hi>ideas,</hi> which proſecute you very im<g ref="char:EOLhyphen"/>portunely, and excite in your Soul inclinations to Deſpair, take care, you permit your ſelf not to be dejected by this importu<g ref="char:EOLhyphen"/>nity of the enemy. Open your Eyes, and behold, how unworthy you are, that God ſhould Love you, whilſt you let your ſelf to be frighted in this manner, and permit theſe fumes and ſhaddows to have ſo
+<pb n="123" facs="tcp:31226:68"/>much force, as to trouble you, who art beloved by God and ſuſtain'd by his Grace, and therefore tell him.</p>
+               <p>O my beloved, what blindneſs and what un<g ref="char:EOLhyphen"/>worthineſs is this? From whence proceeds this Fear; and how can it enter into my heart to diſtruſt you amidſt thoſe many Mi<g ref="char:EOLhyphen"/>racles of your Mercy and Love towards me.</p>
+               <p>'Tis true, <hi>I</hi> have been a ſinner, <hi>I</hi> came from no<g ref="char:EOLhyphen"/>thing, and am Duſt and Aſhes; a Worm genera<g ref="char:EOLhyphen"/>ted
+<pb n="124" facs="tcp:31226:69"/>of Filth; But you are a God, an eternal Com<g ref="char:EOLhyphen"/>forter, an invincible Pro<g ref="char:EOLhyphen"/>tector of the miſerable; and it is you, that ſay to me: My dear Creature, as nothing as thou art, and as ſmall a worm wor<g ref="char:EOLhyphen"/>thy to be trampled under<g ref="char:EOLhyphen"/>foot, take comfort, fear nothing, becauſe <hi>I</hi> am thy Saviour, thy Beloved, thy Faithful Friend; and be<g ref="char:EOLhyphen"/>cauſe it is <hi>I,</hi> that have Sworn, <hi>That the World ſhall ſooner periſh, then that I ſhould permit thee to do ſo; or, that the Devils ſhould
+<pb n="125" facs="tcp:31226:69"/>take thee out of my hand, or the leaſt evil arrive to thee, ſo long as thou conti<g ref="char:EOLhyphen"/>nueſt in my Love.</hi>
+               </p>
+               <p>You tell me this, O moſt powerfully Merci<g ref="char:EOLhyphen"/>ful, and yet I ceaſe not to tremble: Mad and Senſeleſs that I am, your Prophet aſſures me, that you keep me on your Knee, as a tender Mother doth her only Infant, and tenderly embrace me with the like tranſports of Love, hiding me in your Breaſt, as ſhe doth her Beloved, carrying me al<g ref="char:EOLhyphen"/>ſo
+<pb n="126" facs="tcp:31226:70"/>ſo in your Arms, as a Fa<g ref="char:EOLhyphen"/>ther doth his Son, not able yet to go alone; and that you will, if <hi>I</hi> hinder it not, in this manner ſupport me to the end of my Life, though <hi>I</hi> ſhould arrive to never ſo great an Age. You tell me this, my God; <hi>I</hi> hear it, <hi>I</hi> know, it is you, that ſpeak, and yet <hi>I</hi> ask you, if you Love me, if you think of me, if you take notice of my Tears, and if you hear my Voice: And after the many Promiſes, which you have made
+<pb n="127" facs="tcp:31226:70"/>me, as if they were made by a feeble and faithleſs Man, <hi>I</hi> continue to fear; and ſo to offend the ado<g ref="char:EOLhyphen"/>rable Truth of your Word, and of your Love by my inconſiderate diſ<g ref="char:EOLhyphen"/>quiets. Ah, my God, <hi>I</hi> de<g ref="char:EOLhyphen"/>teſt them from hence for<g ref="char:EOLhyphen"/>ward, and will uſe my ut<g ref="char:EOLhyphen"/>moſt endeavours to force them out of my Heart, and not to let any thing remain within me, that carries with it ſuch an unworthy and criminal diffidence. Ah my God, let me ſooner periſh, than
+<pb n="128" facs="tcp:31226:71"/>offend you by fearing, and trembling under the ſha<g ref="char:EOLhyphen"/>dow of your protection. Suſtain'd by you, and ele<g ref="char:EOLhyphen"/>vated above all, that is mortal or created; <hi>I</hi> fear no<g ref="char:EOLhyphen"/>thing, <hi>I</hi> hope in none, nor love any thing, but you.</p>
+               <p>To aſſiſt you the better to confirm this comfort and confidence in your Heart, recount often the moſt remarkable Bene<g ref="char:EOLhyphen"/>fits, you have received from God, and the occa<g ref="char:EOLhyphen"/>ſions you are conſcious of wherein he hath expreſt his particular goodneſs to<g ref="char:EOLhyphen"/>wards
+<pb n="129" facs="tcp:31226:71"/>you. Repeat all theſe to him, and remember, there are three Hiſtories, which your Spouſe hears very willingly, and that you need not fear to re<g ref="char:EOLhyphen"/>peat them too often; wherefore make them the ordinary ſubject of your Domeſtick Entertain<g ref="char:EOLhyphen"/>ments; the Hiſtory of your ſinful Life, the Hiſtory of your Redemption, and his Death upon Mount <hi>Calvary;</hi> and in fine, the Hiſtory of all his Conduct towards you, and the mira<g ref="char:EOLhyphen"/>culous Succors you have
+<pb n="130" facs="tcp:31226:72"/>received from his Provi<g ref="char:EOLhyphen"/>dence in all thoſe occa<g ref="char:EOLhyphen"/>ſions, wherein you were in danger to periſh, and at this very hour, in which you ſpeak to him, if he had not had pitty of you, and heard your Voice in thoſe miſerable oc<g ref="char:EOLhyphen"/>caſions you know of, you had been loſt to all Eternity. 'Tis you, my God, who reach'd out your Hand and drew me out of the Death of Sin and Miſe<g ref="char:EOLhyphen"/>ry. 'Tis you, have dry'd up my Tears, and broken my Chains. Pardon my
+<pb n="131" facs="tcp:31226:72"/>Ingratitude, and heal my Infirmity, and Diſeaſes, who haſt given me Health, Hope, and Grace, haſt Crowned me with Be<g ref="char:EOLhyphen"/>nedictions and heap'd thy Benefits upon me, and haſt revealed to me the ſecrets of thy Wiſdom, and moſt ſublime Truths of thy Goſpel, and from that mi<g ref="char:EOLhyphen"/>ſerable ſtate, <hi>I</hi> was in, which had brought me to the Gates of Hell, and even into the Hands of Devils, haſt elevated me to the rank and condition of Angels. bleſs the Lord,
+<pb n="132" facs="tcp:31226:73"/>O my Soul, and forget not his Benefits.</p>
+               <p>In fine, ſpeak to him of all things, and endea<g ref="char:EOLhyphen"/>vour the moſt intimate familiarity, and ſecret Communications, which one Friend can have with another, Exerciſe them boldly, O Devout Soul, and fear nothing more, than to be afraid, or tremble in his preſence, whom nothing ſo diſ<g ref="char:EOLhyphen"/>pleaſeth in his Saints, as the fears of diffierence, and the diſquiets of a fearful and Puſillanimous Soul.</p>
+            </div>
+            <div n="21" type="chapter">
+               <pb n="133" facs="tcp:31226:73"/>
+               <head>CHAP. XXI.</head>
+               <head type="sub">
+                  <hi>How, God whilſt we ſpeak to him, doth ſilently ſpeak to our Heart.</hi>
+               </head>
+               <p>THat, which is moſt advantageous in theſe ſorts of Converſati<g ref="char:EOLhyphen"/>ons with God; is that, though it ſeems, that ſo long as you entertain him, he lets you ſpeak without ſpeaking himſelf, or an<g ref="char:EOLhyphen"/>ſwering you, yet never<g ref="char:EOLhyphen"/>theleſs it is not ſo.</p>
+               <p>There is a certain voice, which is proper
+<pb n="134" facs="tcp:31226:74"/>only to himſelf, and with<g ref="char:EOLhyphen"/>out the knowledge of your interior Faculties, even whilſt your imagi<g ref="char:EOLhyphen"/>nation underſtands no<g ref="char:EOLhyphen"/>thing, Prints in your Soul ſuch Verities, as his Love would have you know. You feel imperceptibly to riſe in your mind ſuch Thoughts, as comfort you, and extinguiſh your Fears, Lights, that diſſi<g ref="char:EOLhyphen"/>pate your Doubts and Apprehenſions, Reflecti<g ref="char:EOLhyphen"/>ons, which diſcover to you, what you are to do, and which teach you the
+<pb n="135" facs="tcp:31226:74"/>certain means, how you may happily conduct all your Deſigns.</p>
+               <p>It is much, that he hears you: But when you ſpeak to him with this reſpect<g ref="char:EOLhyphen"/>ful confidence, he cannot forbear anſwering, and comforting you: He does it not by forming words in the Air, but by ap<g ref="char:EOLhyphen"/>plying his Lights, his Thoughts and his Sweet<g ref="char:EOLhyphen"/>neſſes to your Heart: It is his Heart which ſpeaks to his Spouſes, and it is a Language, they under<g ref="char:EOLhyphen"/>ſtand.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:31226:75"/>
+            <pb facs="tcp:31226:75" rendition="simple:additions"/>
+            <pb facs="tcp:31226:76" rendition="simple:additions"/>
+            <pb facs="tcp:31226:76" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
